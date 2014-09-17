@@ -5,7 +5,6 @@
 \=====================================/
 AUTHOR:		Andrew Armaneous
 PROJECT:	Lexical Analyzer
-FILE:		lex.py
 
 SUMMARY:
 A simple lexical analyzer that uses an external, simple-format, file for definitions and the respective tokens. Input file can then be specified for checking language against language definition. Output can be presented via print() method or write(filename) method.
