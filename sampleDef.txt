@@ -1,0 +1,8 @@
+reservedToken		::	int | bool | if | else | return | for | while | read | write | function
+assignToken		::	:=
+operatorToken		::	+ | - | / | *
+comparisonToken		::	< | > | != | ==
+logicToken		::	AND | OR
+separatorToken		::	( | ) | { | } | ; | : | $$ | ,
+&identifierToken	::	[a-z]\w+
+&integerToken		::	[0-9]+
