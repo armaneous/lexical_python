@@ -74,10 +74,10 @@ class Lexer(object):
 					tokenLine.append(self.ruleDictionary[item])
 				# Check if item follows a reg expression, else UNKNOWN
 				else:
-					for rule in self.regexRules:
+					for rule in self.ruleDictionary.keys():
 						# If item matches rule reg expression, add appropriate token
 						# KNOWN token added to verify proper addition of token
-						# print (rule, ", ", item)
+						print (rule, ", ", item)
 						if re.match(rule, item):
 							tokenLine.append(self.ruleDictionary[rule])
 							tokenLine.append("KNOWN")
